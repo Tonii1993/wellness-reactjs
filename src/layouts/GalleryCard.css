@@ -1,0 +1,55 @@
+.container {
+  position: relative;
+  height: 85vh;
+}
+
+.image {
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 85vh;
+  transition: 0.5s ease;
+}
+
+.middle {
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 1px 0;
+}
+
+.container:hover .image {
+  opacity: 0.6;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: transparent;
+  font-family: inherit;
+  color: black;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 5px 0;
+  font-weight: 600;
+}
+
+.text:hover {
+  font-weight: 400;
+}
+
+@media screen and (max-width: 480px) {
+  .slick-slide > div {
+    margin: 0 !important;
+  }
+}

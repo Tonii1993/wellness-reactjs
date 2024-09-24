@@ -1,0 +1,38 @@
+.navbar-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-item {
+  margin-right: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  list-style-type: none;
+  margin-top: 0;
+  padding: 1.5rem 0 0 0;
+  background-color: #a37653b3;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 160px;
+  text-align: center;
+  z-index: 1;
+}
+
+.dropdown-item {
+  font-family: "Roboto";
+  font-size: medium;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: rgba(139, 69, 19, 0.9);
+}
