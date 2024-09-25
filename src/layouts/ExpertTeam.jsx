@@ -5,36 +5,41 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FaArrowLeft } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
+import doc1 from "../assets/img/doc1.jpg";
+import doc2 from "../assets/img/doc2.jpg";
+import doc3 from "../assets/img/doc3.jpg";
+import doc4 from "../assets/img/doc4.jpg";
+import doc5 from "../assets/img/doc5.jpg";
 
 const ExpertTeam = () => {
   const data = [
     {
       id: 1,
-      img: "/src/assets/img/doc2.jpg",
+      img: doc1,
       name: "Dr. Serena Mitchell",
       specialties: "Orthopedic Surgeon",
     },
     {
       id: 2,
-      img: "/src/assets/img/doc1.jpg",
+      img: doc2,
       name: "Dr. Julian Bennett",
       specialties: "Cardiologist",
     },
     {
       id: 3,
-      img: "/src/assets/img/doc4.jpg",
+      img: doc4,
       name: "Dr. Camila Rodriguez",
       specialties: "Pediatrician",
     },
     {
       id: 4,
-      img: "/src/assets/img/doc3.jpg",
+      img: doc3,
       name: "Dr. Victor Nguyen",
       specialties: "Neurologist",
     },
     {
       id: 5,
-      img: "/src/assets/img/doc5.jpg",
+      img: doc5,
       name: "Dr. Ethan Carter",
       specialties: "Dermatologist",
     },
