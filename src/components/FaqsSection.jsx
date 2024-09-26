@@ -33,7 +33,7 @@ const FaqsSection = () => {
   return (
     <div className="flex flex-col justify-center xl:px-25 px-5">
       <section className="bg-white text-black">
-        <div className="container flex flex-col justify-center p-4 mx-auto md:p-8">
+        <div className="md:container flex flex-col md:justify-center p-4 mx-auto md:p-8">
           <h2 className="mb-12 text-4xl font-bold text-center sm:text-5xl">
             Frequently Asked Questions
           </h2>

@@ -8,19 +8,6 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  scroll-behavior: smooth;
-  overflow-x: hidden;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  background-color: #fff;
-  margin: 0;
-}
-
 .slick-slide > div {
   margin: 0 10px;
 }
@@ -51,4 +38,20 @@ body {
 
 .prev-arrow {
   left: 10px;
+}
+
+/* Ensures no horizontal scroll is allowed */
+html,
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100vw; /* Prevents extra width issues */
+  scroll-behavior: smooth;
+}
+
+/* Fixes any overflow caused by specific child elements */
+* {
+  box-sizing: border-box; /* Ensures padding and borders are included in element size */
 }
