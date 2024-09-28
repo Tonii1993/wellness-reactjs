@@ -28,6 +28,7 @@
 .dropdown-item {
   font-family: "Roboto";
   font-size: medium;
+  font-weight: 350;
   padding: 10px;
   color: white;
   cursor: pointer;

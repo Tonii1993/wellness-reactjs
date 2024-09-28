@@ -15,7 +15,7 @@ const Footer = () => {
   }, [pathname]);
 
   return (
-    <div className="bg-PrimaryColor text-black mt-0">
+    <div className="bg-white text-black mt-0">
       <div className="flex flex-col md:flex-row justify-between items-center p-5 pt-8 md:px-10">
         <div className="w-full md:w-1/4">
           <img src={logo} alt="logo" />
@@ -38,8 +38,8 @@ const Footer = () => {
         <div className="md:w-1/4">
           <h1 className="font-medium text-xl pb-4 pt-5 md:pt-0">Contact Us</h1>
           <nav className=" flex flex-col gap-2">
-            <span>Email:contact@max.clinique.com</span>
-            <span>Tel: +355 68 800 8083</span>
+            <span>Email: contact@max.clinique.com</span>
+            <span>Tel:+355 68 800 8083</span>
           </nav>
           <div className="flex mt-8 md:mt-5 space-x-4">
             <a

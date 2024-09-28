@@ -52,4 +52,11 @@
   .slick-slide > div {
     margin: 0 !important;
   }
+  .container .image {
+    opacity: 0.6;
+  }
+
+  .container .middle {
+    opacity: 1;
+  }
 }

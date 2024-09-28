@@ -1,41 +1,53 @@
 import { useParams } from "react-router-dom";
+import doc1 from "../assets/img/doc1.jpg";
+import doc2 from "../assets/img/doc2.jpg";
+import doc3 from "../assets/img/doc3.jpg";
+import doc4 from "../assets/img/doc4.jpg";
+import doc5 from "../assets/img/doc5.jpg";
+import doc6 from "../assets/img/doc6.jpg";
 
 const data = [
   {
     id: 1,
-    img: "/src/assets/img/doc2.jpg",
+    img: doc2,
     name: "Dr. Serena Mitchell",
     specialties: "Orthopedic Surgeon",
+    description: "SHE IS THE BEST Orthopedic Surgeon",
   },
   {
     id: 2,
-    img: "/src/assets/img/doc1.jpg",
+    img: doc1,
     name: "Dr. Julian Bennett",
     specialties: "Cardiologist",
+    description: "HE IS THE BEST Cardiologist",
   },
   {
     id: 3,
-    img: "/src/assets/img/doc4.jpg",
+    img: doc4,
     name: "Dr. Camila Rodriguez",
     specialties: "Pediatrician",
+    description: "SHE IS THE BEST Pediatrician",
   },
   {
     id: 4,
-    img: "/src/assets/img/doc3.jpg",
+    img: doc3,
     name: "Dr. Victor Nguyen",
     specialties: "Neurologist",
+    description: "HE IS THE BEST Neurologist",
   },
   {
     id: 5,
-    img: "/src/assets/img/doc5.jpg",
+    img: doc5,
     name: "Dr. Ethan Carter",
     specialties: "Dermatologist",
+    description: "HE IS THE BEST Dermatologist",
   },
   {
-    id: 5,
-    img: "/src/assets/img/doc6.jpg",
-    name: "Dr. Olivia Martinez",
+    id: 6,
+    img: doc6,
+    name: "Dr. Olivio Martinez",
     specialties: "Ophthalmologist",
+    description: "HE IS THE BEST Ophthalmologist",
   },
 ];
 
@@ -87,14 +99,7 @@ function DoctorDetails() {
         <div className="mb-4">
           <h3 className="text-lg font-semibold">{doctorData.name}</h3>
           <h6 className="text-md">({doctorData.specialties})</h6>
-          <p className="text-sm">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dolor
-            ipsa nulla nesciunt. Laborum pariatur eos aliquid voluptatem
-            voluptate debitis ipsa cupiditate! Doloribus enim magnam tempore
-            obcaecati nesciunt, laborum eos quisquam accusamus aut itaque quidem
-            unde fugit voluptatem sit voluptates architecto temporibus ratione
-            dolores porro officiis commodi non placeat. Possimus?
-          </p>
+          <p className="text-sm">{doctorData.description}</p>
         </div>
       </div>
     </div>

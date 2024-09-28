@@ -10,18 +10,19 @@ import doc2 from "../assets/img/doc2.jpg";
 import doc3 from "../assets/img/doc3.jpg";
 import doc4 from "../assets/img/doc4.jpg";
 import doc5 from "../assets/img/doc5.jpg";
+import doc6 from "../assets/img/doc6.jpg";
 
 const ExpertTeam = () => {
   const data = [
     {
       id: 1,
-      img: doc1,
+      img: doc2,
       name: "Dr. Serena Mitchell",
       specialties: "Orthopedic Surgeon",
     },
     {
       id: 2,
-      img: doc2,
+      img: doc1,
       name: "Dr. Julian Bennett",
       specialties: "Cardiologist",
     },
@@ -44,9 +45,9 @@ const ExpertTeam = () => {
       specialties: "Dermatologist",
     },
     {
-      id: 5,
-      img: "/src/assets/img/doc6.jpg",
-      name: "Dr. Olivia Martinez",
+      id: 6,
+      img: doc6,
+      name: "Dr. Olivio Martinez",
       specialties: "Ophthalmologist",
     },
   ];
