@@ -68,6 +68,8 @@ const VideoCarouselClient = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     initialSlide: 0,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
     responsive: [
       {
         breakpoint: 1024,
@@ -93,8 +95,6 @@ const VideoCarouselClient = () => {
         },
       },
     ],
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
   };
 
   return (

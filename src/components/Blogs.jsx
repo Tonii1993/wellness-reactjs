@@ -51,7 +51,7 @@ import CallToAction from "./CallToAction";
 const Blogs = () => {
   return (
     <>
-      <div className="flex flex-col md:flex-row  min-h-screen pt-20 items-center p-5 bg-background text-foreground">
+      <div className="flex flex-col md:flex-row md:min-h-screen pt-24 md:pt-20 items-center p-5 bg-background text-foreground">
         <div className="md:w-1/2">
           <h1 className="flex justify-center items-center text-4xl font-bold mb-4">
             Blog
