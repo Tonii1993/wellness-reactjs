@@ -186,10 +186,10 @@ const Navbar = ({ openForm }) => {
       <div
         className={`${
           menu ? "translate-x-0" : "-translate-x-full"
-        } lg:hidden flex flex-col absolute bg-[#2d3142] text-PrimaryColor left-0 top-16 font-serif font-semibold text-2xl text-center pt-8 pb-4 gap-4 w-full h-fit transition-transform duration-300`}
+        } xl:hidden flex flex-col absolute bg-PrimaryColor text-[#A5A09C] left-0 top-16 font-serif font-semibold text-2xl text-center pt-8 pb-4 gap-4 w-full h-fit transition-transform duration-300`}
       >
         <button
-          className="nav-link text-PrimaryColor hover:text-ExtraDarkColor transition-all cursor-pointer"
+          className="nav-link  hover:text-ExtraDarkColor transition-all cursor-pointer"
           onClick={toggleSurgicalItems}
         >
           <span className="flex flex-row justify-center items-center gap-2">
@@ -197,38 +197,38 @@ const Navbar = ({ openForm }) => {
           </span>
         </button>
         {showSurgicalItems && (
-          <div className="flex flex-col pl-8 text-xl text-center">
+          <div className="flex flex-col text-xl text-center">
             <Link
               to="/surgical/overview"
-              className="nav-link text-PrimaryColor hover:text-ExtraDarkColor transition-all cursor-pointer"
+              className="nav-link  hover:text-ExtraDarkColor transition-all cursor-pointer"
               onClick={closeMenu}
             >
               Overview
             </Link>
             <Link
               to="/surgical/face"
-              className="nav-link text-PrimaryColor hover:text-ExtraDarkColor transition-all cursor-pointer"
+              className="nav-link hover:text-ExtraDarkColor transition-all cursor-pointer"
               onClick={closeMenu}
             >
               Face
             </Link>
             <Link
               to="/surgical/eyes"
-              className="nav-link text-PrimaryColor hover:text-ExtraDarkColor transition-all cursor-pointer"
+              className="nav-link hover:text-ExtraDarkColor transition-all cursor-pointer"
               onClick={closeMenu}
             >
               Eyes
             </Link>
             <Link
               to="/surgical/breast"
-              className="nav-link text-PrimaryColor hover:text-ExtraDarkColor transition-all cursor-pointer"
+              className="nav-link hover:text-ExtraDarkColor transition-all cursor-pointer"
               onClick={closeMenu}
             >
               Breast
             </Link>
             <Link
               to="/surgical/body"
-              className="nav-link text-PrimaryColor hover:text-ExtraDarkColor transition-all cursor-pointer"
+              className="nav-link hover:text-ExtraDarkColor transition-all cursor-pointer"
               onClick={closeMenu}
             >
               Body
@@ -237,35 +237,35 @@ const Navbar = ({ openForm }) => {
         )}
         <Link
           to="/breastreconstruction"
-          className="nav-link text-PrimaryColor hover:text-ExtraDarkColor transition-all cursor-pointer"
+          className="nav-link  hover:text-ExtraDarkColor transition-all cursor-pointer"
           onClick={closeMenu}
         >
           Breast Reconstruction
         </Link>
         <Link
           to="/livestyle"
-          className="nav-link text-PrimaryColor hover:text-ExtraDarkColor transition-all cursor-pointer"
+          className="nav-link  hover:text-ExtraDarkColor transition-all cursor-pointer"
           onClick={closeMenu}
         >
           Exclusive Lifestyle
         </Link>
         <Link
           to="/beautyallure"
-          className="nav-link text-PrimaryColor hover:text-ExtraDarkColor transition-all cursor-pointer"
+          className="nav-link  hover:text-ExtraDarkColor transition-all cursor-pointer"
           onClick={closeMenu}
         >
           Beauty Allure
         </Link>
         <Link
           to="/blog"
-          className="nav-link text-PrimaryColor hover:text-ExtraDarkColor transition-all cursor-pointer"
+          className="nav-link  hover:text-ExtraDarkColor transition-all cursor-pointer"
           onClick={closeMenu}
         >
           Blog
         </Link>
         <Link
           to="/aboutus"
-          className="nav-link text-PrimaryColor hover:text-ExtraDarkColor transition-all cursor-pointer"
+          className="nav-link  hover:text-ExtraDarkColor transition-all cursor-pointer"
           onClick={closeMenu}
         >
           About
