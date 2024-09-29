@@ -8,7 +8,7 @@ const CallToAction = ({ openForm }) => {
   };
 
   return (
-    <div className="flex relative h-96 w-full ">
+    <div className="flex relative h-96 w-full">
       <img
         src={photo}
         alt="consultation-banner"

@@ -51,12 +51,12 @@ import CallToAction from "./CallToAction";
 const Blogs = () => {
   return (
     <>
-      <div className="flex flex-col md:flex-row md:min-h-screen pt-24 md:pt-20 items-center p-5 bg-background text-foreground">
-        <div className="md:w-1/2">
-          <h1 className="flex justify-center items-center text-4xl font-bold mb-4">
+      <div className="flex flex-col lg:flex-row justify-between items-center lg:px-24 px-5 pt-24 gap-5">
+        <div className="w-full lg:w-3/4 space-y-4">
+          <h1 className="flex justify-center items-center text-4xl font-semibold text-center lg:text-start">
             Blog
           </h1>
-          <p className="text-base text-muted-foreground mb-6">
+          <p className="text-base text-justify lg:text-start">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente
             at vero nisi tempore maiores officiis dolor! Cupiditate impedit
             voluptates natus vitae omnis, deleniti autem sed accusantium ab
@@ -70,11 +70,11 @@ const Blogs = () => {
             facilis!.
           </p>
         </div>
-        <div className="md:w-1/2 mt-6 md:mt-0">
+        <div className="w-full lg:w-3/4">
           <img
             alt="Woman looking in mirror"
             src={image}
-            className="rounded-lg shadow-lg "
+            className="rounded-lg shadow-lg"
           />
         </div>
       </div>

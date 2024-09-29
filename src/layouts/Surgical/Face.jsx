@@ -5,7 +5,7 @@ import image from "../../assets/img/womenface.jpg";
 
 const Face = ({ openForm }) => {
   return (
-    <div className="flex-col pt-20 justify-center items-center min-h-screen">
+    <div className="flex flex-col min-h-screen justify-center items-center pt-20 ">
       <CardDetails
         imageSrc={image}
         title="Surgical"

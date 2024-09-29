@@ -38,7 +38,7 @@ const BeforeAndAfter = ({ openForm }) => {
 
   return (
     <>
-      <div className="min-h-screen flex flex-col justify-between items-center lg:px-32 px-5 pt-24 lg:pt-18 gap-5">
+      <div className="min-h-screen flex flex-col justify-between items-center xl:px-32 px-5 pt-24 lg:pt-18 gap-5">
         <div className="flex-col justify-center lg:px-24">
           <h1 className="aesthetic-font text-center font-bold text-7xl py-10">
             Our Most Dramatic Medical Aesthetic Before and Afters

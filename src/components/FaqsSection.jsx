@@ -31,7 +31,7 @@ const questions = [
 
 const FaqsSection = () => {
   return (
-    <div className="flex flex-col justify-center xl:px-25 px-5">
+    <div className="flex flex-col justify-center px-5">
       <section className="bg-white text-black">
         <div className="md:container flex flex-col md:justify-center p-4 mx-auto md:p-8">
           <h2 className="mb-12 text-4xl font-bold text-center sm:text-5xl">

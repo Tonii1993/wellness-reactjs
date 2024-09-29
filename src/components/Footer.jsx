@@ -15,7 +15,7 @@ const Footer = () => {
   }, [pathname]);
 
   return (
-    <div className="bg-white text-black mt-0">
+    <div className="bg-white text-black mt-0 md:mx-2">
       <div className="flex flex-col md:flex-row justify-between items-center p-5 pt-8 md:px-10">
         <div className="w-full md:w-1/4">
           <img src={logo} alt="logo" />

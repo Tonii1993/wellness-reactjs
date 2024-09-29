@@ -3,7 +3,7 @@ import React from "react";
 const WhyUs = () => {
   return (
     <>
-      <div className="max-w-screen-xl mx-auto py-10 px-4 lg:py-5 lg:px-6">
+      <div className="max-w-screen-2xl mx-auto py-10 px-4 lg:py-5">
         <div className="text-center mb-3">
           <h2 className="text-4xl tracking-tight font-bold text-primary-800">
             Why choose us?
@@ -11,7 +11,7 @@ const WhyUs = () => {
         </div>
 
         <div className="flex flex-col lg:flex-row md:flex-col ">
-          <div className="mr-0 md:mr-8 mb-6 md:mb-0">
+          <div className="md:flex md:justify-center md:items-center mr-0 md:mr-8 mb-6 md:mb-0">
             <img
               className="w-full h-auto max-w-lg mx-auto pt-10"
               src="https://media.istockphoto.com/id/165129422/photo/portrait-of-woman-with-lines-on-her-face.jpg?s=1024x1024&w=is&k=20&c=WiM2SVEW_GuyFFQMaqKn-9kRsGoN1EcCFOolM0CB0-Q="
